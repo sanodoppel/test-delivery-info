@@ -1,0 +1,18 @@
+form:
+  delivery:
+    info:
+      price:
+        submit: Get price
+      tracking:
+        submit: Get tracking
+
+delivery:
+  info:
+    price:
+      title: Delivery Price
+      description: for cargo delivery from door to door
+      price: Price
+
+    tracking:
+      title: Delivery Tracking
+      status: Tracking Status

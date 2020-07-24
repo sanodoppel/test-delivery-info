@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <h1>{{ 'delivery.info.price.title'|trans }}</h1>
+    <p>{{ 'delivery.info.price.description'|trans }}</p>
+    {{ form(form) }}
+    {% if price %} <p>{{ 'delivery.info.price.price'|trans }}: {{ price }} </p> {% endif %}
+{% endblock %}

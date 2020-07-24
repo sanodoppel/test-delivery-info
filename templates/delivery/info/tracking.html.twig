@@ -1,0 +1,6 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <h1>{{ 'delivery.info.tracking.title'|trans }}</h1>
+    {{ form(form) }}
+    {% if trackingStatus %} <p>{{ 'delivery.info.tracking.status'|trans }}: {{ trackingStatus }} </p> {% endif %}
+{% endblock %}
