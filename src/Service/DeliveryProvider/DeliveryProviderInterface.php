@@ -17,6 +17,13 @@ interface DeliveryProviderInterface
     public function getDeliveryPriceRequestParameters(array $data): RequestDTO;
 
     /**
+     * @param array $data
+     *
+     * @return RequestDTO
+     */
+    public function getDeliveryTrackingRequestParameters(array $data): RequestDTO;
+
+    /**
      * @param string $name
      *
      * @return RequestDTO
